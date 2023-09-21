@@ -1,7 +1,7 @@
 //importamos la utilidad scanner para que java sepa lo que quieres hacer 
 import java.util.Scanner;
 
-public class ejemplo4 {
+public class ejemplo3 {
 
     
     public static void main(String[] args ){
@@ -10,10 +10,10 @@ public class ejemplo4 {
        sc = new Scanner(System.in); //Decimos que lea el teclado (system.in)
 
        System.out.println("Escribe un numero entero"); //Al estar antes que el "int" sale primero 
-       short numero1 = sc.nextShort(); //La variable "sc" le dije que escanee el teclado)
+       int numero1 = sc.nextInt(); //La variable "sc" le dije que escanee el teclado)
        
        System.out.println("Escribe un numero entero"); 
-       short numero2 = sc.nextShort(); //cambiamos Int por Short para limitar rango
+       int numero2 = sc.nextInt();
 
     
        int suma = numero1 + numero2; //variable para identificar la suma 
@@ -34,4 +34,3 @@ public class ejemplo4 {
     
 
 }
-
