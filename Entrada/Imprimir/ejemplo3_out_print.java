@@ -1,4 +1,4 @@
-public class ejemplo3 {
+public class ejemplo3_out_print {
 
     public static void main(String[] args ){
         int a = 1;

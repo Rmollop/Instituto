@@ -1,4 +1,5 @@
 //importamos la utilidad scanner para que java sepa lo que quieres hacer 
+import java.nio.file.SecureDirectoryStream;
 import java.util.Scanner;
 
 public class ejemplo1 {
@@ -22,6 +23,7 @@ public class ejemplo1 {
 
        System.out.println("El resultado es " + suma); //usando esa variable suma sacamos el resultado de los dos numeros 
        System.out.println("Adios");
+       
        
         sc.close();
 
