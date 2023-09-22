@@ -1,6 +1,6 @@
 
 
-import java.text.StringCharacterIterator;
+
 import java.util.Scanner;
 
 
@@ -15,27 +15,52 @@ public class Tarea_8 {
        sc = new Scanner(System.in);
 
 
-       System.out.println("¿Tienes dinero? Responde con si/no"); 
-       String dinero = sc.nextLine(); 
+       System.out.println("¿Tienes dinero? Responde 1 para decir SI o 0 para decir NO "); 
+       int dinero = sc.nextInt(); 
        
-       
-       if ( dinero.equalsIgnoreCase("si")){
-            System.out.println("Siguiente pregunta ");
-        
-       } else if ( dinero.equalsIgnoreCase("no")) {
-            System.out.println("Pobre");
-          
-            
-       } else{
-          System.out.println("Solo si/no por favor");
+
+       System.out.println("¿Tienes reserva?  Responde 1 para decir SI o 0 para decir NO" ); 
+       int reserva = sc.nextInt(); 
+
+       System.out.println("¿Tienes pasaporte? Responde 1 para decir SI o 0 para decir NO"); 
+       int pasaporte = sc.nextInt(); 
+      
+
+
+       if (dinero == 1 || (reserva == 1 && pasaporte == 1 ) ) {
+           System.out.println("Nos vamos");
+           
+           
+          System.out.println("¿Donde quiere ir el hijo mayor?   Responde 1 para decir (montaña) o 0 para decir (Playa)"); 
+           int mayor = sc.nextInt(); 
+
+          System.out.println("¿Donde quiere ir el hijo mediano ? Responde 1 para decir (montaña) o 0 para decir (Playa)"); 
+          int mediano = sc.nextInt(); 
+
+
+          System.out.println("¿Donde quiere ir el hijo menor? Responde 1 para decir (montaña) o 0 para decir (Playa)"); 
+          int menor = sc.nextInt(); 
+
+
+
+          if (mayor == 0 && mediano == 0 && menor == 0 )   {
+               System.out.println("Nos vamos a la montaña");
+          }else {
+               System.out.println("Vamos a la playa");
+          }
+
+
+       }else if (reserva == 1 && pasaporte == 1 ){
+          System.out.println("Nos vamos");
        }
 
-       
+       else {
+          System.out.println("No nos vamos de vacaciones");
+       }
 
-    
-      sc.close();
-     
-    }
-    
+       System.out.println("Adios ");
+
+     sc.close();
+}
 
 }
