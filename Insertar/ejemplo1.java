@@ -1,5 +1,5 @@
 //importamos la utilidad scanner para que java sepa lo que quieres hacer 
-import java.nio.file.SecureDirectoryStream;
+
 import java.util.Scanner;
 
 public class ejemplo1 {
