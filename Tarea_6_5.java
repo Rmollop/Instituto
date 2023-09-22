@@ -19,15 +19,17 @@ public class Tarea_6_5 {
        System.out.println("Escribe cuantos kilos se peras se han vendido"); 
        float peras = sc.nextFloat();
 
-       //ingresos
-       double a = ( 2.35 ); 
-       double b = ( 1.95 ); 
-       double multiplicacionManzanas = manzanas * a ; 
-       double multiplicacionPeras = peras *  b; 
+       //creamos la variable "kilosmananas" y "kilosperas" que son el precio por cada kilo de manzanas y peras.
+       double kilomanzana = ( 2.35 ); 
+       double kilopera = ( 1.95 ); 
+
+       //usamos la variable "multiplicacionManzanas" y "multiplicacionPeras" para multiplicar por el valor de los kilos  que entran desde las variables "manzanas" y "peras". 
+       double multiplicacionManzanas = manzanas * kilomanzana ; 
+       double multiplicacionPeras = peras *  kilopera; 
        double ingresos = multiplicacionManzanas + multiplicacionPeras; 
        System.out.println("Ingresos:  " + ingresos);
        
-       //Factura de la luz 
+       //creamos la variable fruta para sumar todos los kilos de frutas y así clacular el consumo en luz 
        double fruta = (manzanas + peras) * 0.60;
        System.out.println("Factura de la luz: "  + fruta);
 
