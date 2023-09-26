@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Tarea_9 {
+    public static void main (String [] args){
+
+        Scanner sc; 
+      
+        sc = new Scanner(System.in);
+
+       
+        
+        
+        
+        
+        
+
+        sc.close();
+    }
+}
