@@ -20,23 +20,23 @@ public class Tarea_6_5 {
        float peras = sc.nextFloat();
 
        //creamos la variable "kilosmananas" y "kilosperas" que son el precio por cada kilo de manzanas y peras.
-       double kilomanzana = ( 2.35 ); 
-       double kilopera = ( 1.95 ); 
+       float kilomanzana = ( 2.35f ); 
+       float kilopera = ( 1.95f ); 
 
        //usamos la variable "multiplicacionManzanas" y "multiplicacionPeras" para multiplicar por el valor de los kilos  que entran desde las variables "manzanas" y "peras". 
-       double multiplicacionManzanas = manzanas * kilomanzana ; 
-       double multiplicacionPeras = peras *  kilopera; 
-       double ingresos = multiplicacionManzanas + multiplicacionPeras; 
+       float multiplicacionManzanas = manzanas * kilomanzana ; 
+       float multiplicacionPeras = peras *  kilopera; 
+       float ingresos = multiplicacionManzanas + multiplicacionPeras; 
        System.out.println("Ingresos:  " + ingresos);
        
        //creamos la variable fruta para sumar todos los kilos de frutas y así clacular el consumo en luz 
-       double fruta = (manzanas + peras) * 0.60;
+       float fruta = (manzanas + peras) * 0.60f;
        System.out.println("Factura de la luz: "  + fruta);
 
        //Beneficio
 
        
-       double Beneficio = ingresos - fruta; 
+       float Beneficio = ingresos - fruta; 
        System.out.println("Beneficio " + Beneficio);
 
 

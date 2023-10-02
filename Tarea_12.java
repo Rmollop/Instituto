@@ -1,5 +1,5 @@
 import java.util.Scanner;
-import java.util.function.DoubleBinaryOperator;
+
 
 public class Tarea_12 {
     public static void main (String [] args){
@@ -29,7 +29,7 @@ public class Tarea_12 {
         } else if ( lluvia == 0 && tarea == 0 && biblioteca == 1){
             System.out.println("Puedes ir a la biblioteca");
 
-        }
+        }else System.out.println("Puedes salir a la calle ");
 
 
 

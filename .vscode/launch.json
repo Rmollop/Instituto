@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Texto_11",
+            "request": "launch",
+            "mainClass": "Texto_11",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_10",
+            "request": "launch",
+            "mainClass": "Texto_10",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_9",
+            "request": "launch",
+            "mainClass": "Texto_9",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_8",
+            "request": "launch",
+            "mainClass": "Texto_8",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_7",
+            "request": "launch",
+            "mainClass": "Texto_7",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_6copy",
+            "request": "launch",
+            "mainClass": "Texto_6copy",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_1",
+            "request": "launch",
+            "mainClass": "Texto_1",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_6",
+            "request": "launch",
+            "mainClass": "Texto_6",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_5prueba",
+            "request": "launch",
+            "mainClass": "Texto_5prueba",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_5",
+            "request": "launch",
+            "mainClass": "Texto_5",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_4",
+            "request": "launch",
+            "mainClass": "Texto_4",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_3",
+            "request": "launch",
+            "mainClass": "Texto_3",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Texto_2",
+            "request": "launch",
+            "mainClass": "Texto_2",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Tarea_21",
+            "request": "launch",
+            "mainClass": "Tarea_21",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Tarea_18",
+            "request": "launch",
+            "mainClass": "Tarea_18",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Tarea_19",
+            "request": "launch",
+            "mainClass": "Tarea_19",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Tarea_20",
+            "request": "launch",
+            "mainClass": "Tarea_20",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Tarea_17",
+            "request": "launch",
+            "mainClass": "Tarea_17",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
             "name": "Tarea_16",
             "request": "launch",
             "mainClass": "Tarea_16",
