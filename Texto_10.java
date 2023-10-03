@@ -9,7 +9,7 @@ public class Texto_10 {
 
        System.out.println("Escribe texto ...");
        String texto = sc.nextLine();
-       String TEXTO = texto.toUpperCase()
+       String TEXTO = texto.toUpperCase();
      
        String[] corte = texto.split(". " );
 

@@ -1,29 +1,31 @@
 import java.util.Scanner;
 
 public class Texto_5 {
-    public static void main (String [] args){
-
-        Scanner sc; 
-      
-        sc = new Scanner(System.in);
-
-    
-     System.out.println("Escribe texto"); 
-       String texto = sc.nextLine(); 
-
-    
-       System.out.println("Que palabra quieres contar");
-       String texto2 = sc.nextLine();
-
-       
-
-       int contar = texto.lastIndexOf(texto2); 
+    public static void main(String[] args) {
+        Scanner scanner = new Scanner(System.in);
 
 
-       System.out.println(contar);
+        System.out.print("Ingresa un texto: ");
+        String texto = scanner.nextLine();
 
-        sc.close();
+        
+        System.out.print("Ingresa la palabra que deseas contar: ");
+        String palabraContar = scanner.next();
+
+        String[] palabras = texto.split(" ");
+        int contador = 0;
+
+        
+        for (String palabra : palabras) {
+            if (palabra.equalsIgnoreCase(palabraContar)) {
+                contador++;
+            }
+        }
+
+        
+        System.out.println("La palabra '" + palabraContar + "' aparece " + contador + " veces en el texto.");
+
+
+        scanner.close();
     }
-
-   
 }
