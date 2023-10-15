@@ -6,6 +6,132 @@
     "configurations": [
         {
             "type": "java",
+            "name": "penalties",
+            "request": "launch",
+            "mainClass": "penalties",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "juego2",
+            "request": "launch",
+            "mainClass": "juego2",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "juego",
+            "request": "launch",
+            "mainClass": "juego",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "sietecopy",
+            "request": "launch",
+            "mainClass": "sietecopy",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "siete",
+            "request": "launch",
+            "mainClass": "siete",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "ocho",
+            "request": "launch",
+            "mainClass": "ocho",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Cinco",
+            "request": "launch",
+            "mainClass": "Cinco",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Uno",
+            "request": "launch",
+            "mainClass": "Uno",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "PruebaBucleFacil",
+            "request": "launch",
+            "mainClass": "PruebaBucleFacil",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "PruebaBucle6_2",
+            "request": "launch",
+            "mainClass": "PruebaBucle6_2",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Prueba",
+            "request": "launch",
+            "mainClass": "Prueba",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "PruebaBucle6",
+            "request": "launch",
+            "mainClass": "PruebaBucle6",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "PruebaBucle4",
+            "request": "launch",
+            "mainClass": "PruebaBucle4",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Ejemplo",
+            "request": "launch",
+            "mainClass": "Ejemplo",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "PruebaBucle2",
+            "request": "launch",
+            "mainClass": "PruebaBucle2",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "PruebaBucle",
+            "request": "launch",
+            "mainClass": "PruebaBucle",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "a",
+            "request": "launch",
+            "mainClass": "a",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Ejemplo1",
+            "request": "launch",
+            "mainClass": "Ejemplo1",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
             "name": "Texto_11",
             "request": "launch",
             "mainClass": "Texto_11",
