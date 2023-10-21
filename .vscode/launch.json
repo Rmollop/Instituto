@@ -6,6 +6,55 @@
     "configurations": [
         {
             "type": "java",
+            "name": "Anumerosecretodospersonas",
+            "request": "launch",
+            "mainClass": "Anumerosecretodospersonas",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Abrueba",
+            "request": "launch",
+            "mainClass": "Abrueba",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "AnumeroSecreto",
+            "request": "launch",
+            "mainClass": "AnumeroSecreto",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Aprobabilidad",
+            "request": "launch",
+            "mainClass": "Aprobabilidad",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Acomanda",
+            "request": "launch",
+            "mainClass": "Acomanda",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "pruebacomanda",
+            "request": "launch",
+            "mainClass": "pruebacomanda",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "comanda",
+            "request": "launch",
+            "mainClass": "comanda",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
             "name": "penalties",
             "request": "launch",
             "mainClass": "penalties",
