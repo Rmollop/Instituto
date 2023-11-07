@@ -1,0 +1,14 @@
+#a{
+    width: 150px;
+    height: 75px;
+    background-color: red;
+    opacity: 0.9;
+    margin: auto;
+}
+#b{
+    width: 150px;
+    height: 75px;
+    background-color: red;
+    opacity: 0.4;
+    margin: auto;
+}

@@ -1,0 +1,17 @@
+
+body{
+    text-align: center;
+}
+h1{
+    background-color: hsl(200, 40%, 70%);
+}
+h2{
+    background-color: hsl(200, 75%, 75%);
+}
+h3{
+    background-color: hsla(200, 75%,75%, 0.75);
+}
+h4{
+    background-color: hsla(200, 75%, 75%,0.25);
+}
+

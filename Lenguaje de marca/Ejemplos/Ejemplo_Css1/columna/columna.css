@@ -1,0 +1,22 @@
+h1 , h2 {
+    text-align: center;
+}
+
+.negrita{
+    font-weight: bold;
+}
+
+p{
+    text-align: justify;
+}
+
+div{
+    height: 450px;
+    background-color: rgb(255, 230, 0);
+    columns: 100px 3;
+    column-gap: 50px;
+    column-rule: 5px solid burlywood;
+    /* column-fill: auto; */
+    
+}
+

@@ -6,6 +6,111 @@
     "configurations": [
         {
             "type": "java",
+            "name": "practicaexamen",
+            "request": "launch",
+            "mainClass": "practicaexamen",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "Pruebaequal",
+            "request": "launch",
+            "mainClass": "Pruebaequal",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "zombieDos",
+            "request": "launch",
+            "mainClass": "zombieDos",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "zombiedosprueba",
+            "request": "launch",
+            "mainClass": "zombiedosprueba",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "zombiedos",
+            "request": "launch",
+            "mainClass": "zombiedos",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "zombie",
+            "request": "launch",
+            "mainClass": "zombie",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "edad",
+            "request": "launch",
+            "mainClass": "edad",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "piramidebien",
+            "request": "launch",
+            "mainClass": "piramidebien",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "ejercicio38",
+            "request": "launch",
+            "mainClass": "ejercicio38",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "factorial",
+            "request": "launch",
+            "mainClass": "factorial",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "reloj",
+            "request": "launch",
+            "mainClass": "reloj",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "ejemploFOR",
+            "request": "launch",
+            "mainClass": "ejemploFOR",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "piramide",
+            "request": "launch",
+            "mainClass": "piramide",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "dieciocho",
+            "request": "launch",
+            "mainClass": "dieciocho",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
+            "name": "AejemploFOR",
+            "request": "launch",
+            "mainClass": "AejemploFOR",
+            "projectName": "Instituto_5991e8b9"
+        },
+        {
+            "type": "java",
             "name": "Anumerosecretodospersonas",
             "request": "launch",
             "mainClass": "Anumerosecretodospersonas",

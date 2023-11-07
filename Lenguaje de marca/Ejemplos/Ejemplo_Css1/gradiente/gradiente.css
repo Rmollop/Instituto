@@ -1,0 +1,26 @@
+#a{
+    height: 100px;
+    background-image: linear-gradient(red,yellow ,blue,orange);
+}
+#b{
+    height: 100px;
+    background-image: linear-gradient(orange,yellow);
+}
+#c{
+    height: 100px;
+    background-image: radial-gradient(aqua,yellow,pink,orange,black);
+
+}
+
+#d{
+    height: 100px;
+    background-image: repeating-linear-gradient(red,yellow 30%);
+
+}
+
+#e{
+    height: 100px;
+    background-image: repeating-radial-gradient(aqua,yellow 33%);
+
+
+}

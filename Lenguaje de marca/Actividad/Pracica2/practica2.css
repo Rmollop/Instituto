@@ -1,0 +1,46 @@
+.primero{
+    border-top:5px ;
+    border-top: dotted;
+    border-top-color: green;
+    border-bottom: dotted;
+    border-bottom-color: red;
+    border-left: 5px;
+    border-left: dashed;
+    border-left-color: blue;
+    border-right: dashed;
+    border-right-color:orange;
+    padding: 15px;
+    margin-top:15px;
+    margin-bottom: 15px;
+    text-align: center;
+
+
+    
+    
+}
+.segundo{
+    border-left: 10px;
+    border-left:solid;
+    border-right: 10px;
+    border-right:solid;
+    border-left-color: black;
+    border-right-color: black;
+    border-top:5px;
+    border-top:solid;
+    border-top-color: aqua; 
+    border-bottom: 5px;
+    border-bottom:solid;  
+    text-align: right;
+    padding: 15px;
+
+    
+
+}
+
+.tercero{
+    border: 2px;
+    border: solid;
+    border-color: black;
+    padding: 15px;
+    
+}

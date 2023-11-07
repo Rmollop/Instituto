@@ -1,0 +1,48 @@
+body{
+    background-color: rgb(213, 155, 155);
+    
+}
+h1 {
+    font-family: Verdana;
+    color: white;
+    
+}
+li{
+    text-decoration: underline; 
+    color:firebrick;
+}
+/*
+h3 i{
+    color: red;
+    font-family: Verdana;
+    text-decoration: underline;
+    
+}
+*/
+.fondo_blanco{
+    background-color: white;
+}
+.h3_fondo{
+    background-color: rgb(203, 41, 41);
+}
+
+#verde_h3{
+    color: green;
+}
+
+h3 > i{
+    color: red;
+    font-family: Verdana;
+    text-decoration: underline;
+    
+}
+
+h2 + h3{
+   background-color: rgb(0, 255, 132);
+}
+
+h1 + p {
+    background-color: navy
+    
+
+}

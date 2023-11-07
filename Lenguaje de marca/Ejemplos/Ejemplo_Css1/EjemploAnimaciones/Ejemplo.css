@@ -1,0 +1,22 @@
+*{
+    box-sizing: border-box;
+}
+
+
+.caja1 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+   
+
+}
+.caja2 {
+    width: 300px;
+    height: 100px;
+    border: 1px solid red;
+    padding: 50px;
+    margin-top:5px ;
+    box-sizing: border-box;
+    
+
+}

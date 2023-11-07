@@ -1,0 +1,15 @@
+h1{
+    background-color: rgba(4, 62, 4, 1);
+}
+h2{
+    background-color: rgba(4, 62, 4, 0.75);
+}
+h3{
+    background-color: rgba(4, 62, 4, 0.50);
+}
+h4{
+    background-color: rgba(4, 62, 4, 0.25);
+}
+h5{
+    background-color: rgba(4, 62, 4, 0);
+}

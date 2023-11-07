@@ -1,0 +1,25 @@
+#contenedor{
+    margin-top: 150px;
+}
+.caja{
+    background-color: aqua;
+    width: 150px;
+    height: 200px;
+    float: left;
+    margin-left: 200px;
+
+
+}
+#deformadax{
+    transform:skewX(30deg);
+}
+
+#deformaday{
+    transform: skewY(30deg);
+}
+#doble {
+    transform:scale(2,2);
+}
+#girado{
+    transform: rotate(30deg);
+}

@@ -1,0 +1,10 @@
+a[href*="iesjuandelacierva"]{
+    background-color: rgb(250, 185, 63);
+}
+
+a[href$="es"]{
+    background-color: red;
+}
+a[href^="https"]{
+    color: red;
+}

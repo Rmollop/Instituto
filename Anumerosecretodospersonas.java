@@ -41,12 +41,12 @@ public class Anumerosecretodospersonas {
 
                 }else{ 
                 
-                    if ( intentospartida1 > 10){
+                    if( intentospartida1 > 10){
                         System.out.println("Demasiados intentos, el numero era:" + numeroaleatoriouno);
                         uno=false;
                     }else{
 
-                        if ( numero == numeroaleatoriouno){
+                        if( numero == numeroaleatoriouno){
                             System.out.println("Ole tu polla gorda " + nombreuno + ", el numero es: " +  numeroaleatoriouno);
                             System.out.println("Numero de intentos realizados: " + intentospartida1);
                             uno=false;
@@ -72,7 +72,7 @@ public class Anumerosecretodospersonas {
                 System.out.println("Jugador 2, " + nombredos);
                 int numerodos = sc.nextInt();
 
-                if ( numerodos == 0){
+                if( numerodos == 0){
                     dos=false;
 
                 }else{
@@ -80,6 +80,7 @@ public class Anumerosecretodospersonas {
                         System.out.println("Demasiados intentos, el numero era:" + numeroaleatoriodos);
                         dos=false;
                     }else{
+
                         if ( numerodos == numeroaleatoriodos){
                             System.out.println("Ole tu polla gorda "+ nombredos+", el numero es: " + numeroaleatoriodos);
                             System.out.println("Numero de intentos realizados: " + intentospartida2);
@@ -100,31 +101,36 @@ public class Anumerosecretodospersonas {
             }
 
     }
+    System.out.println("____________________________________________");
+    System.out.println(" ");
+    System.out.println("          RESULTADOS          ");
     if ( intentospartida1 < 10 && intentospartida2 <10){
-        System.out.println(nombreuno + " lo hizo en: " + intentospartida1 + " intentos.");
-        System.out.println(nombredos + " lo hizo en: " + intentospartida2 + " intentos.");
-        if ( intentospartida1 > intentospartida2){
-            System.out.println(nombredos + " Ganó");
+            System.out.println(nombreuno + " lo hizo en: " + intentospartida1 + " intentos.");
+            System.out.println(nombredos + " lo hizo en: " + intentospartida2 + " intentos.");
+            if ( intentospartida1 > intentospartida2){
+                System.out.println(nombredos + " Ganó");
 
-        }else if ( intentospartida1 == intentospartida2){
-            System.out.println("Empate tecnico.");
+            }else if ( intentospartida1 == intentospartida2){
+                System.out.println("Empate tecnico.");
+            }else {
+                System.out.println(nombreuno + " Ganó");
+            }
+        }else if ( intentospartida1 < 10 && intentospartida2 > 10) {
+            System.out.println("El jugador 1 (" + nombreuno + ") lo hizo en " + intentospartida1 + "intetos por lo que gano.");
+            System.out.println("El Jugador 2 (" + nombredos + ") realizó " + intentospartida2 + "intentos por lo que es mayor del limite de intentos permitidos y por ende perdio." );
+
+        }else if ( intentospartida1 > 10 && intentospartida2 < 10){
+            System.out.println("El jugador 2 (" + nombredos + ") lo hizo en " + intentospartida2 + "intentos por lo que gano. ");
+            System.out.println("El Jugador 1 (" + nombreuno + ") realizó " + intentospartida1 + "intetos por lo que es mayor del limite de intentos permitidos y por ende perdio." );
         }else {
-            System.out.println(nombreuno + " Ganó");
+            System.out.println("Jugador 1 (" + nombreuno + ") realizó " + intentospartida1 +" intentos"  );
+            System.out.println("Jugador 2 (" + nombredos + ") realizó " + intentospartida2 +" intentos"  );
+            System.out.println("Los dos lo hicieron en más de 10 intentos por lo que ambos perdieron.");
+
+
         }
-    }else if ( intentospartida1 < 10 && intentospartida2 > 10) {
-        System.out.println("El jugador 1 (" + nombreuno + ") lo hizo en " + intentospartida1 + " por lo que gano.");
-        System.out.println("El Jugador 2 (" + nombredos + ") lo hizo en " + intentospartida2 + " por lo que es mas de 10 y por ende perdio." );
+    System.out.println("____________________________________________");
 
-    } else if ( intentospartida1 > 10 && intentospartida2 < 10){
-        System.out.println("El jugador 2 (" + nombredos + ") lo hizo en " + intentospartida2 + " por lo que gano. ");
-        System.out.println("El Jugador 1 (" + nombreuno + ") lo hizo en " + intentospartida1 + " por lo que es mas de 10 y por ende perdio." );
-    } else {
-        System.out.println("Jugador 1 (" + nombreuno + ") lo hizo en " + intentospartida1  );
-        System.out.println("Jugador 2 (" + nombredos + ") lo hizo en " + intentospartida2  );
-        System.out.println("Los dos lo hicieron en mas de 10 intentos por lo que ambos perdieron");
-
-
-    }
      i=true;
     sc.close();
 }

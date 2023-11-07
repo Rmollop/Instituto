@@ -1,0 +1,48 @@
+header{
+    text-align: center;
+    background-color: #9CDDE5;
+    padding:25px;
+    /* margin-top: 0px; para margen por arriba*/
+       
+}
+nav{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 26px;
+    padding-top: 10px;
+    
+      
+}
+nav a{
+    font-family: Arial;
+    font-size: 16px;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+   
+    
+}
+nav a:hover{
+    background-color: green;
+  
+
+
+}
+section{
+    background-color: #f0a1a1;
+    padding: 10px;
+
+}
+footer{
+    clear:both;
+    background-color: antiquewhite;
+    padding: 25px;
+    text-align: center;
+    
+
+}
+
+
+article{
+    width: 35%;
+    float: left;
+}

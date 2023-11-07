@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo etiqueria output</title>
+</head>
+<body>
+    <h1>Longitud de la circunferencia</h1>
+    <h3>Mueve el indicador para conocer como varia la longitud de la circunferencia respecto al radio.</h3>
+    <form oninput="x.value=parseInt(a.value*2*3.1416);z.value=parseInt(a.value)">
+        Longitud de radio:
+        0<input type="range" id="a" name="Longitud" value="0">100 <br>
+        Valor del radio: <output name="z" for="Longitud"></output><br>
+        Longitud de la circunferencia: <output name="x" for="a"></output>
+
+    </form>
+
+</body>
+</html> 

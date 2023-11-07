@@ -1,0 +1,12 @@
+
+* ->en CSS para toda la pagina
+# -> para los id 
+.nombre ->para las clases 
+etiqueta -> para las etiquetas normales
+etiqueta1 > etiqueta2 -> solo los hijos directos de etiqueta1
+etiqueta1 + etiqueta2 -> si etiqueta2 va justo detras de etiqueta1
+a[href*=""]{} Para el que contenga 
+a[href$=""]{} Para el que finalice 
+a[href^=""]{} Para el que empiece 
+
+
