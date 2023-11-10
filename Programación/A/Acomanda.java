@@ -1,5 +1,6 @@
-import java.util.Scanner;
+package Programación.A;
 
+import java.util.Scanner;
 public class Acomanda {
       public static void main (String [] args){
 

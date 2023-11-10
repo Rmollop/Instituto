@@ -1,3 +1,4 @@
+package Programación.A;
 import java.util.Scanner;
 
 public class AnumeroSecreto {

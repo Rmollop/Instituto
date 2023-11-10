@@ -1,3 +1,4 @@
+package Programación.A;
 import java.util.Scanner;
 
 public class factorial {
@@ -25,4 +26,5 @@ public class factorial {
         
         sc.close();
     }
+    
 }
